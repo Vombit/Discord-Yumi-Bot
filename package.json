@@ -13,5 +13,8 @@
     "discord.js": "^11.5.1",
     "fs": "0.0.1-security",
     "jimp": "^0.9.3"
+  },
+  "engines": {
+    "node": "13.6.0"
   }
 }
