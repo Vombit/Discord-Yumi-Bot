@@ -5,11 +5,11 @@ let lang = eng;
 const bot = new Discord.Client({disableEveryone: true});
 bot.commands = new Discord.Collection();
 bot.aliases = new Discord.Collection();
-let bconfig = require('./botconfig.json');
+//let bconfig = require('./botconfig.json');
 let profile = require('./profile.json');
 let base = require('./base/guilds.json');
-let token = bconfig.token;
-let prefix = bconfig.prefix;
+//let token = bconfig.token;
+//let prefix = bconfig.prefix;
 const fs = require('fs');
 
 fs.readdirSync('./cmd/').filter(file => file.endsWith('.js')).forEach(file => {
