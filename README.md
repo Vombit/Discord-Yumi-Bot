@@ -1,9 +1,13 @@
 # Yumi-Bot-discord
 
-Hi, People!
+#### Install bot
+* Install `Node.js`
+* Run `npm install` to install dependencies
+  * Use `npm install discord.js`
+  * Use `npm install --save jimp`
+* Change the database names in `botconfig.json`
 
-In General this my the first project, all of course can be crooked, ugly, and at all full trash. But Hey, I'm just learning and for me it's wildly difficult, I may not understand much, but I try.
+#### Finish
+* Run `yumi.js`
 
-I will try to make my code even better and more interesting, but this will only appear with experience, so I am patient with any comments.
-
-https://discord.gg/DNYzfpj
+For help: [Discord](https://discord.gg/DNYzfpj)
